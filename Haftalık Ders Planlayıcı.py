@@ -44,7 +44,7 @@ def ders_guncellle():
         ders_adi=input("Güncellenecek dersin ismini veya kodunu giriniz.......:")
         ders_yerig=input("Güncellenecek olan dersin yeni yerini girin........:")
         imlec.execute('UPDATE program set ders_yeri= ? WHERE ders_adi = ?',(ders_yerig,ders_adi))
-        print("{} İsimli ders yeri {} olarak değiştirilmiştir.".format(ders_adi,ders_yerig))
+        print("{} İsimli dersin yeri {} olarak değiştirilmiştir.".format(ders_adi,ders_yerig))
         vt.commit()
     else:
         print("HATALI TUŞLAMA")
