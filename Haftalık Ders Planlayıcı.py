@@ -36,15 +36,15 @@ def ders_guncellle():
         vt.commit()
     elif(gun_secenek==3):
         ders_adi=input("Güncellenecek dersin ismini veya kodunu giriniz.......:")
-        ders_saatig=input("Güncellenecek olan dersin yeni gününü girin........:")
+        ders_saatig=input("Güncellenecek olan dersin yeni saatini girin........:")
         imlec.execute('UPDATE program set ders_saati= ? WHERE ders_adi = ?',(ders_saatig,ders_adi))
-        print("{} İsimli ders {} günü olarak değiştirilmiştir.".format(ders_adi,ders_saatig))
+        print("{} İsimli ders saati {} olarak değiştirilmiştir.".format(ders_adi,ders_saatig))
         vt.commit()
     elif(gun_secenek==4):
         ders_adi=input("Güncellenecek dersin ismini veya kodunu giriniz.......:")
         ders_yerig=input("Güncellenecek olan dersin yeni yerini girin........:")
         imlec.execute('UPDATE program set ders_yeri= ? WHERE ders_adi = ?',(ders_yerig,ders_adi))
-        print("{} İsimli ders {} günü olarak değiştirilmiştir.".format(ders_adi,ders_yerig))
+        print("{} İsimli ders yeri {} olarak değiştirilmiştir.".format(ders_adi,ders_yerig))
         vt.commit()
     else:
         print("HATALI TUŞLAMA")
