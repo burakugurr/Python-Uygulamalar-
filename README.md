@@ -11,10 +11,10 @@
 
 | **Özelllikler**  |
 | ------------- |
-|  Ders Ekleme  | 
-|Ders güncelleme  |
-| Ders kayıt silme  | 
-| Ders listesi gösterme  | 
+| Yeni Ders Ekleme  | 
+|Ders Güncelleme  |
+| Ders Kayıt Silme  | 
+| Ders Listesi Sıralama  | 
 
 ### GEREKSİNİMLER ###
 
